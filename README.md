@@ -1,70 +1,73 @@
-# Hello-rails
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> A restful API that serves a random greeting message on every request. Users can interact with the API with the help of counterpart app, designed in react.
+# Greeting Rails App
 
+## Project Objectives
 
-## Counterpart app link
-
-- [frontend-app](../../../hello-rails-frontend)
+- Implement a connection between a Ruby on Rails back-end and React front-end.
+- Understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
 
 
 ## Built With
-
-- Rails
-- Ruby
-- postgresql
+- Ruby on Rails
+- PostgreSQL
 
 
 ## Getting Started
 
-To get this program running on your computer,
+To get a copy of this project running on your local computer, do the followings:
 
-1. Install **Ruby**
-2. Install **postgres** database engine
-2. Clone the project repository ([link](../../))
+### Prerequisites
+- Must have a working computer
+- A Web-Browser installed (Chrome - Recommended)
 
-### To setup your environment frameworks, run
-  ```
-    $ bundle install
-  ```
+### Setup
+- Install a text Editor. For example [_VS_](https://visualstudio.microsoft.com/)
+- Clone this project repository on your local computer. [link](https://github.com/petushka1/ruby-capstone)
+- Open the project directory with _Text Editor_
 
-### To setup both testing and development databases
-  Create a _**`.env`**_ file in the root directory of the app, and then add this
-  ```
-    DB_USERNAME = <USERNAME_THAT_WORKS_WITH_SETUP_POSTGRES_DATABASE>
-    DB_PASSWORD = <PASSWORD_ASSOCIATED_WITH_THE_POSTGRES_USERNAME>
-  ```
+### Install
 
-  I've come across weird scenarios where certain routines would result in errors on Windows platform when 
-  they work fine on other platforms. So, I've chosen those that are more likely to succeed.
-  ```
-    > rake db:create
-    > rake db:migrate
-  ```
+```
+    bundler install
+```
 
-  For Linux and macOS platforms
-  ```
-    $ rake db:prepare
-  ```
+### Check Linters Errors
 
-### To run local server
-  ```
-    $ rails s
-  ```
+run
+```
+    rubocop
+```
+run
+```
+    npx stylelint "**/*.{css,scss}"
+```
+
+
+**Make sure to install**
+
+ [_Ruby_](https://rubyinstaller.org/)
+
+
+ _Ruby on Rails_ 
+ ```
+ gem install rails
+ ```
 
 
 ## Authors
 
-👤 **Steve**
+👤 **Nadya**
 
-- GitHub: [@sntakirutimana72](https://github.com/sntakirutimana72/)
-- LinkedIn: [steve-ntakirutimana](https://www.linkedin.com/in/steve-ntakirutimana/) 
+- GitHub: [@petushka1](https://github.com/petushka1)
+- LinkedIn: [LinkedIn](http://www.linkedin.com/in/nadyalevina)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/gasangw/OOP-school-library/issues).
 
 ## Show your support
 
@@ -72,8 +75,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Fellow Micronauts
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is licensed.
