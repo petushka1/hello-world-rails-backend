@@ -8,6 +8,11 @@
 - Understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
 
 
+## React Frontend app
+
+- [Github repo link](https://github.com/petushka1/hello-world-rails-frontend)
+
+
 ## Built With
 - Ruby on Rails
 - PostgreSQL
